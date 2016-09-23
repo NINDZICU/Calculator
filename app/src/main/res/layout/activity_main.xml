@@ -9,7 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.khlopunov.calculator.MainActivity">
 
-
     <TextView
         android:id="@+id/tv_text"
         android:layout_width="match_parent"
@@ -17,107 +16,142 @@
         android:layout_above="@+id/btn_C"
         android:height="50dp"
         android:gravity="right"
-        android:hint="0"/>
+        android:textSize="30dp"
+        android:hint="0"
+        />
 
     <Button
         android:id="@+id/btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
+        android:height="70dp"
         android:layout_above="@+id/btn_4"
+        android:background="@color/Button"
         />
     <Button
         android:id="@+id/btn_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2"
+        android:height="70dp"
         android:layout_toRightOf="@+id/btn_1"
-        android:layout_above="@+id/btn_4"/>
+        android:layout_above="@+id/btn_4"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3"
+        android:height="70dp"
         android:layout_toRightOf="@id/btn_2"
-        android:layout_above="@+id/btn_4"/>
+        android:layout_above="@+id/btn_4"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_4"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4"
         android:layout_above="@+id/btn_7"
+        android:background="@color/Button"
         />
     <Button
         android:id="@+id/btn_5"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5"
         android:layout_toRightOf="@+id/btn_1"
-        android:layout_above="@+id/btn_7"/>
+        android:layout_above="@+id/btn_7"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_6"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6"
         android:layout_toRightOf="@+id/btn_2"
-        android:layout_above="@+id/btn_7"/>
+        android:layout_above="@+id/btn_7"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_7"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7"
-        android:layout_above="@+id/btn_comma"/>
+        android:layout_above="@+id/btn_comma"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_8"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="8"
         android:layout_toRightOf="@+id/btn_1"
-        android:layout_above="@+id/btn_0"/>
+        android:layout_above="@+id/btn_0"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_9"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9"
         android:layout_toRightOf="@+id/btn_2"
-        android:layout_above="@+id/btn_equals"/>
+        android:layout_above="@+id/btn_equals"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_0"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btn_1"
         android:layout_alignParentBottom="true"
+        android:background="@color/Button"
         android:text="0" />
     <Button
         android:id="@+id/btn_plus"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btn_3"
         android:layout_above="@+id/btn_9"
+        android:background="@color/Button"
+        android:layout_alignParentRight="true"
         android:text="+"/>
     <Button
         android:id="@+id/btn_minus"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btn_3"
         android:layout_above="@+id/btn_0"
+        android:background="@color/Button"
+        android:layout_alignParentRight="true"
         android:text="-"/>
     <Button
         android:id="@+id/btn_divide"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btn_3"
         android:layout_alignParentBottom="true"
+        android:background="@color/Button"
+        android:layout_alignParentRight="true"
         android:text="/"/>
     <Button
         android:id="@+id/btn_multiply"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btn_3"
         android:layout_above="@+id/btn_4"
+        android:background="@color/Button"
+        android:layout_alignParentRight="true"
         android:text="*"/>
     <Button
         android:id="@+id/btn_equals"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="="
@@ -126,18 +160,23 @@
         android:background="@color/orangeButton"/>
     <Button
         android:id="@+id/btn_comma"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=","
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:background="@color/Button"/>
     <Button
         android:id="@+id/btn_C"
+        android:height="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="C"
         android:layout_toRightOf="@+id/btn_3"
         android:layout_above="@+id/btn_3"
-        android:textColor="@color/orangeButton"/>
+        android:background="@color/Button"
+        android:textColor="@color/orangeButton"
+        android:layout_alignParentRight="true"/>
 
 
 </RelativeLayout>
